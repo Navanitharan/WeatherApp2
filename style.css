@@ -1,0 +1,116 @@
+*{
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1584269655525-c2ec535de1d0?q=80&w=2091&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
+    height: 100vh;
+    
+}
+.container h2{
+    color: rgb(232, 196, 35);
+}
+nav{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.src-bar{
+    width: 40%;
+    background-color: rgba(140, 163, 184 , 0.8);
+    border-radius: 20px;
+    padding: 5px;
+}
+.src-bar input,button{
+    background: none;
+    border: none;
+    outline: none;
+    border-style: none;
+}
+.src-bar input{
+    width: 90%;
+}
+.wethr-card{
+    padding: 2rem;
+    z-index: 8;
+    background-color: rgba(8, 11, 35, 0.4);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgb(12, 23, 47);
+}
+.left{
+    width: 50%;
+    z-index: 8;
+    background-color: rgba(8, 11, 35, 0.4);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgb(12, 23, 47);
+}
+.right{
+    padding-top: 3rem;
+    padding-left: 12rem;
+    width: 50%;
+}
+.right i{
+    margin-bottom: 4rem;
+    margin-right: 1rem;
+    font-size: 40px;
+}
+.cityname{
+    font-size: 3rem;
+    color: rgb(232, 196, 35);
+
+}
+.wethr{
+    font-size: 5rem;
+    font-weight: 100;
+
+}.temp{
+    font-size: 9rem;
+    color: rgb(232, 196, 35);
+}
+.exdtl{
+    display: flex;
+}
+@media screen and (max-width: 576px) { 
+  .container h2{
+    font-size: 30px;
+  }
+  nav{
+    display: block;
+  }
+  .src-bar{
+    width: 70%;
+  }  
+  .temp{
+    font-size: 45px;
+  }
+  .wethr{
+    font-size: 35px;
+  }
+  .cityname{
+    font-size: 25px;
+  }
+  .wethr-card{
+    display: flex;
+  }
+  .right{
+    width: 40%;
+    padding-left: 2rem;
+    padding-top: 0rem;
+  }
+  .right i{
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    font-size: 20px;
+  }
+  .left{
+    padding-top: 2rem;
+    width: 60%;
+    text-align: center;
+  }
+  .exdtl{
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .exdtl p{
+    font-size: 13px;
+  }  
+}
