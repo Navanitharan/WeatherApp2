@@ -4,7 +4,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/Navanitharan/WeatherApp2/assets/102136576/33be3b48-9352-437d-9ca4-6357bf19db64" alt="project-screenshot" width="400" height="400/">
+<img src="https://github.com/Navanitharan/WeatherApp2/assets/102136576/33be3b48-9352-437d-9ca4-6357bf19db64" alt="project-screenshot" width="400" height="600/">
 
   
   
